@@ -44,7 +44,7 @@ body{
 }
 
 /*imagem*/
-img{
+.foto {
     width: 250px;
     height: 250px;
 
@@ -54,7 +54,7 @@ img{
     transition: 0.5s;
 }
 
-img:hover {
+.foto:hover {
     box-shadow: 0px 0px 20px var (--cor-primaria);
     cursor: pointer;
     transform: scale(1.05);
